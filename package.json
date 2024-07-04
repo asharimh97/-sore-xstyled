@@ -21,12 +21,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/asharimh97/-sore-xstyled.git"
+    "url": "git+https://github.com/asharimh97/sore-xstyled.git"
   },
   "bugs": {
-    "url": "https://github.com/asharimh97/-sore-xstyled/issues"
+    "url": "https://github.com/asharimh97/sore-xstyled/issues"
   },
-  "homepage": "https://github.com/asharimh97/-sore-xstyled",
+  "homepage": "https://github.com/asharimh97/sore-xstyled",
   "license": "ISC",
   "devDependencies": {
     "@chromatic-com/storybook": "^1.6.1",
@@ -75,5 +75,9 @@
   "peerDependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
+  },
+  "dependencies": {
+    "@xstyled/styled-components": "^4.0.0",
+    "styled-components": "^6.1.11"
   }
 }
