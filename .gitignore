@@ -1,0 +1,30 @@
+node_modules
+
+.DS_Store
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+coverage
+storybook-static
+
+# local env files
+.env
+
+# typescript
+*.tsbuildinfo
+
+# history in mac 
+.history
+
+# dist directory
+dist
+package
+
+# storybook
+*storybook.log
+
+# running configuration
+.npmrc
