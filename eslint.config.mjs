@@ -53,6 +53,7 @@ export default [
     rules: {
       "@typescript-eslint/no-empty-interface": "warn",
       "@typescript-eslint/no-explicit-any": "warn",
+      "@typescript-eslint/ban-ts-comment": "warn",
       "react/no-unescaped-entities": "warn",
       "react/react-in-jsx-scope": "off",
       "react/display-name": "off",
