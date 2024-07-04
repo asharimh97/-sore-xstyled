@@ -32,6 +32,7 @@ export default defineConfig({
       exclude: [
         "**/*.test.*",
         "**/*.stories.*",
+        "**/stories/*",
         "vite.*.ts",
         "vitest.*.ts",
         "test.setup.ts",
@@ -43,8 +44,10 @@ export default defineConfig({
     alias: {
       "@/src": path.resolve(__dirname, "/src"),
       "@/commons": path.resolve(__dirname, "/src/commons"),
-      "@/configs": path.resolve(__dirname, "/src/components/configs"),
-      "@/lib": path.resolve(__dirname, "/src/components/lib"),
+      "@/configs": path.resolve(__dirname, "/src/configs"),
+      "@/lib": path.resolve(__dirname, "/src/lib"),
+      "@/styles": path.resolve(__dirname, "/src/_styles"),
+      "@/props": path.resolve(__dirname, "/src/props"),
       "@/utils": path.resolve(__dirname, "/src/utils"),
     },
   },

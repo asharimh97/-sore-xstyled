@@ -25,9 +25,10 @@
     "baseUrl": ".",
     "paths": {
       "@/commons/*": ["./src/commons/*"],
-      "@/_styled/*": ["./src/_styled/*"],
+      "@/styles/*": ["./src/_styles/*"],
       "@/lib/*": ["./src/lib/*"],
       "@/configs/*": ["./src/configs/*"],
+      "@/props/*": ["./src/props/*"],
       "@/utils/*": ["./src/utils/*"],
       "@/src/*": ["./src/*"],
     }
