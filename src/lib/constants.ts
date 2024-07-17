@@ -1,6 +1,11 @@
 import { color } from "../_styles";
 
-export const tagColors: Record<string, any> = {
+interface ColorTag {
+  bg: string;
+  fg: string;
+}
+
+export const tagColors: Record<string, ColorTag> = {
   red: {
     bg: color["red-100"],
     fg: color["red-500"],
