@@ -27,21 +27,23 @@ Here is basic example of how to use this library
 import { Button } from '@sore/xstyled'
 
 function App() {
-  return <Button />
+  return <Button mb="10px">Hello from Button</Button>
 }
 ```
 
 ### Additional configuration
 
 ```javascript
-import { ConfigProvider } from '@sore/xstyled';
+import { ThemeProvider } from "@xstyled/styled-components";
+import { theme, Preflight } from '@sore/xstyled';
 
 const App = () => {
   return (
-    <ConfigProvider config={{ key: 'value' }}>
+    <ThemeProvider theme={theme}>
+      <Preflight />
       <ComponentA />
       <ComponentB />
-    </ConfigProvider>
+    </ThemeProvider>
   );
 };
 
