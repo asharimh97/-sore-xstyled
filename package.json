@@ -83,11 +83,6 @@
     "vite-plugin-dts": "^3.9.1",
     "vitest": "^1.6.0"
   },
-  "eslintConfig": {
-    "extends": [
-      "plugin:storybook/recommended"
-    ]
-  },
   "peerDependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
