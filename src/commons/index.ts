@@ -1,2 +1,3 @@
 export { default as Base } from "./base";
-export { default as Box } from "./box";
+export * from "./box";
+export * from "./text";

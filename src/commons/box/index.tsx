@@ -1,5 +1,3 @@
-import Base from "../base";
-
-const Box = Base.div;
-
-export default Box;
+export { default as Box } from "./Box";
+export { default as Flex } from "./Flex";
+export { default as Grid } from "./Grid";
