@@ -7,10 +7,12 @@ import {
   ITheme,
   Theme,
 } from "@xstyled/styled-components";
+import { PropsWithChildren } from "react";
 
 export interface SystemStyleProps<T extends ITheme = Theme>
   extends SystemProps<T>,
-    GeneralProps<T> {}
+    GeneralProps,
+    PropsWithChildren {}
 
 export const systemProps = compose<SystemStyleProps>(system, generalProps);
 
