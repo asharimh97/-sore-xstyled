@@ -93,5 +93,8 @@
     "@xstyled/styled-components": "^4.0.0",
     "styled-components": "^6.1.11",
     "tinycolor2": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
