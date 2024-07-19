@@ -15,7 +15,7 @@ import { style, Theme, ITheme, compose } from "@xstyled/styled-components";
  * onClick [DONE?]
  */
 
-interface BlockProps {
+export interface BlockProps {
   block?: boolean;
 }
 const block = style<BlockProps>({
