@@ -1,5 +1,5 @@
 {
-  "name": "@sore/xstyled",
+  "name": "@tigasorei/xstyled",
   "version": "0.0.1",
   "description": "A simple xstyled UI library for React Project",
   "main": "dist/index.umd.js",
@@ -96,5 +96,9 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
   }
 }
