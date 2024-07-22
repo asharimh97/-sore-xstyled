@@ -43,7 +43,7 @@
   "bugs": {
     "url": "https://github.com/asharimh97/sore-xstyled/issues"
   },
-  "homepage": "https://github.com/asharimh97/sore-xstyled",
+  "homepage": "https://soreui-xstyled.iamashari.me",
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.27.7",
@@ -92,6 +92,7 @@
   },
   "dependencies": {
     "@xstyled/styled-components": "^4.0.0",
+    "react-icons": "^5.2.1",
     "styled-components": "^6.1.11",
     "tinycolor2": "^1.6.0"
   },
