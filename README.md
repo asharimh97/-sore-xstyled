@@ -1,5 +1,5 @@
 
-# @sore/xstyled
+# @tigasorei/xstyled
 
 A simple UI Library for React project, made with `styled-components` and `@xstyled/styled-components`
 
@@ -10,10 +10,10 @@ To install this library you can use npm or yarn
 
 ```bash
   # using npm
-  npm install @sore/xstyled
+  npm install @tigasorei/xstyled
   
   # using yarn
-  yarn add @sore/xstyled
+  yarn add @tigasorei/xstyled
 ```
 
     
@@ -24,7 +24,7 @@ Here is basic example of how to use this library
 ### Import and use components
 
 ```javascript
-import { Button } from '@sore/xstyled'
+import { Button } from '@tigasorei/xstyled'
 
 function App() {
   return <Button mb="10px">Hello from Button</Button>
@@ -35,7 +35,7 @@ function App() {
 
 ```javascript
 import { ThemeProvider } from "@xstyled/styled-components";
-import { theme, Preflight } from '@sore/xstyled';
+import { theme, Preflight } from '@tigasorei/xstyled';
 
 const App = () => {
   return (
