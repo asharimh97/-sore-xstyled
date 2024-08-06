@@ -21,6 +21,7 @@ export default defineConfig({
           react: "React",
           "react-dom": "ReactDOM",
         },
+        interop: "compat",
       },
     },
     sourcemap: true, // Generates source maps for debugging.
